@@ -27,7 +27,7 @@ const statusConfig = {
 		],
 		boldText: "You haven't started your application yet.",
 		img: applicationStatusSVG,
-		status: 'Not Started',
+		status: '✨Not Started✨',
 		statusBG: STRINGS.APPLICATION_INCOMPLETE_STATUSBG,
 		statusColor: STRINGS.APPLICATION_INCOMPLETE_STATUSCOLOR,
 		text: `The deadline is ${STRINGS.DEADLINE}`,
@@ -116,7 +116,7 @@ const HackerDashBG = styled(FloatingPopup)`
 	border-radius: 8px;
 	height: min-content;
 	width: 36rem;
-	background: rgba(247, 245, 249, 1);
+	background: rgba(251, 228, 232, 1);
 	padding: 1.5rem;
 
 	@media screen and (max-width: 456px) {
